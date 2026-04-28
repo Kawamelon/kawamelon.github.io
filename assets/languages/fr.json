@@ -1,0 +1,31 @@
+{
+    "title-main":           "HoneyCore | Accueil",
+    "title-products":       "HoneyCore | Produits",
+
+    "products":             "Produits",
+    "getting-started":      "Bien débuter",
+    "documentation":        "Documentation",
+    "about_us":             "A propos",
+    "language":             "Langue",
+    "first-block-title":    "Le futur de l'éducation.",
+    "first-block-text":     "HoneyCore vous aide à enseigner aux enfants de manière très efficace. Je ne marque pas du tout ça parce que j'ai un énorme ego.",
+    "first-block-btn":      "Commencer",
+    "second-block-title":   "Une documentation claire et simple",
+    "second-block-text":    "La documentation de HoneyCore est claire, simple à comprendre, accessible et complète. Elle est un outil indispensable pour utiliser HoneyCore à son plein potentiel. Ignorez juste le fait qu'elle ne soit pas complète.",
+    "second-block-btn":     "Découvrir la documentation",
+    "third-block-title":    "Bien plus qu'une machine virtuelle",
+    "third-block-text":     "HoneyCore n'est pas une simple machine virtuelle, la solution comporte également un langauge de programmation ainsi qu'un système d'exploitation.",
+    "third-block-btn":      "Découvrir nos autres produits",
+
+    "vm-title":             "HoneyCoreVM",
+    "vm-text":              "La machine virtuelle la plus accessible et simple d'utilisation du marché. La première architecture pensée uniquement pour l'apprentissage. Mon ego est toujours aussi immense.",
+    "vm-btn":               "Télécharger HoneyCoreVM",
+    "language-title":       "HoneyPot",
+    "language-text":        "Le language de programmation pensé pour l'éducation. Simple à prendre en main et rapide d'exécution, il se combine parfaitement avec l'architecture HoneyCore.",
+    "language-btn":         "Essayez HoneyPot",
+
+    "privacy-policy":       "Politique de confidentialité",
+    "terms":                "Conditions générales d'utilisation",
+    "accessibility":        "Accessibilité",
+    "contact":              "Nous contacter"
+}
