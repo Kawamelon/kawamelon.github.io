@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="assets/js/lang.js"></script>
+    <script src="assets/js/slideshow.js"></script>
+    <title lang-dependant="title-about-me">Mèle BOUDRA - About me</title>
+</head>
+
+<body onload="init_content()">
+    <!-- Top nav bar -->
+    <nav>
+        <a class="nav-title" href="index.html" lang-dependant="title">Mèle BOUDRA</a>
+        <div class="nav-links">
+            <!-- <a href="gallery.html" class="nav-item" lang-dependant="gallery">Gallery</a> -->
+            <a href="about-me.html" class="nav-item" lang-dependant="about-me">About me</a>
+            <div class="lang-switcher">
+                <button class="lang-btn" lang-dependant="language">EN</button>
+                <div class="lang-dropdown">
+                  <button onclick="saveLangPreferences('en')">English</button>
+                  <button onclick="saveLangPreferences('fr')">Français</button>
+                </div>
+              </div>
+        </div>
+    </nav>
+
+    <!-- Opening sequence, name and decorations -->
+    <section class="opening">
+        <div class="opening-bg-text" aria-hidden="true">Storyboard</div>
+        <div class="opening-content">
+            <div>
+                <div class="opening-tag" lang-dependant="adjectives">Storyboard · Creativity · Passion</div>
+                <h1 class="opening-title" lang-dependant="opening-title">Mèle<br><em>BOUDRA</em></h1>
+            </div>
+            <div>
+                <p class="opening-desc" lang-dependant="quote">"Passionate Story Artist willing to learn through stories and projects she is creating. Adventure and Drama are partial to her, helping you to bring your animations to life."</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="main">
+        <div class="question">
+            <img src="/assets/img/whoami.png" alt="pictrue of me">
+            <h3 class="img-on-top" lang-dependant="question-1">Qui suis-je ?</h3>
+            <p lang-dependant="answer-1">
+                Je me nomme Mèle, une Storyboardeuse qui a commencé son parcours en 2023.
+                Après mes cours avec la CG Master Academy mon objectif étant de peaufiner mes compétences en storytelling en faisant mes projets avec Clip Studio Paint; Storyboard Pro et Blender 3D.        
+            </p>
+            </div>
+        <hr>
+        <div class="question">
+            <h3 lang-dependant="question-2">Pourquoi collaborer avec moi ?</h3>
+            <p lang-dependant="answer-2">
+                Mon imaginaire est sans limite.
+                En m'évadant et Expérimentant grâce a mes expérience de vie et ma bibliothèque cinématographique, je suis capable de mettre en forme les séquences et mise en scène de l'œuvre pour amener l'émotion qu'on veut donner au public visé.
+            </p>
+        </div>
+        <hr>
+        <div class="question">
+            <h3 lang-dependant="question-3">Genre de prédilection ?</h3>
+            <p lang-dependant="answer-3">
+                J'adore faire rêver l'audience avec des aventures mystique et magique; créer de l'émotion et la nostalgie avec le drama; évoquer du suspense avec de l'action.
+            </p>
+        </div>
+        <hr>
+
+        <div class="quiet" lang-dependant="more-info">
+            Une question ? Des informations complémentaires voire un projet à me proposer ? Contactez-moi sur ma boîte mail: 
+            <a href="mailto:mele.bdra@gmail.com"><svg>
+                <use href="assets/svg/icons.svg#mail"></use>
+            </svg> mele.bdra@gmail.com</a>
+        </div>
+    </section>
+
+    <!-- Footer and contacts -->
+    <footer class="site-footer">
+        <div>
+          <div class="footer-name" lang-dependant="footer-name">Mèle<br>BOUDRA</div>
+          <div class="footer-sub" lang-dependant="footer-sub">Storyboard Artist · Lyon</div>
+        </div>
+        <div>
+          <div class="footer-col-label" lang-dependant="networks">Networks</div>
+          <div class="footer-col-body">
+            <a href="https://www.instagram.com/kawameljpg/">
+                <svg>
+                    <use href="assets/svg/icons.svg#instagram"></use>
+                </svg> Instagram</a><br>
+            <a href="https://www.artstation.com/kawamel">
+                <svg>
+                    <use href="assets/svg/icons.svg#artStation"></use>
+                </svg> ArtStation</a><br>
+            <a href="https://linkedin.com/in/melekawamelboudra">
+                <svg>
+                    <use href="assets/svg/icons.svg#linkedin"></use>
+                </svg> LinkedIn</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-label" lang-dependant="contact">Contact</div>
+          <div class="footer-col-body" lang-dependant="missions-text">
+            <a href="mailto:mele.bdra@gmail.com"><svg>
+                <use href="assets/svg/icons.svg#mail"></use>
+            </svg>mele.bdra@gmail.com</a><br><br>
+            Available for missions<br>freelance — France &amp; international
+          </div>
+        </div>
+        <div class="footer-copy" lang-dependant="copy">© 2026 Mèle BOUDRA — All rights reserved<br>Made with ❤️ in Montpellier</div>
+      </footer>
+
+      <!-- script for language button -->
+      <script>
+        const switcher = document.querySelector('.lang-switcher');
+        const btn = switcher.querySelector('.lang-btn');
+      
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          switcher.classList.toggle('open');
+        });
+      
+        document.addEventListener('click', () => {
+          switcher.classList.remove('open');
+        });
+      </script>
+</body>

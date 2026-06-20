@@ -1,6 +1,7 @@
 {
     "title":            "Mèle BOUDRA",
     "title-main":       "Mèle BOUDRA | Storyboard",
+    "title-about-me":   "Mèle BOUDRA | About me",
 
     "artist-title":     "Freelance digital artist",
     "gallery":          "Gallery",
@@ -18,5 +19,13 @@
     "footer-sub":       "Storyboard Artist · Lyon",
     "networks":         "Networks",
     "missions-text":    "<a href=\"mailto:mele.bdra@gmail.com\">mele.bdra@gmail.com</a><br><br>\nAvailable for missions<br> France &amp; international",
-    "copy":             "© 2026 Mèle BOUDRA — All rights reserved<br>Made with ❤️ in Montpellier"
+    "copy":             "© 2026 Mèle BOUDRA — All rights reserved<br>Made with ❤️ in Montpellier",
+
+    "question-1":       "Who am I ?",
+    "answer-1":         "I'm called Mèle, a Storyboard Artist who started her journey in 2023. After my courses with the CG Master Academy, my goal is to straighten my skills in storytelling by creating projects alongside Clip Studio Paint, Storyboard Pro and Blender 3D. I love make my audience dream with  mystical adventures; create emotions and nostalgia with drama; elaborate suspense with actions.",
+    "question-2":       "Why collaborate with me ?",
+    "answer-2":         "My imagination is limitless. Wandering and Experimenting thanks to my life experience and my cinematography knowledge, I can bring sequences and the direction requested  to give the emotion we expected to the audience. ",
+    "question-3":       "Main Genre ?",
+    "answer-3":         "I love make my audience dream with  mystical adventures; create emotions and nostalgia with drama; elaborate suspense with actions.",
+    "more-info":        "A Question ? Any Further information or a project to consider with ? Let's contact with me  via my mail: <a href=\"mailto:mele.bdra@gmail.com\"><svg><use href=\"assets/svg/icons.svg#mail\"></use></svg> mele.bdra@gmail.com</a>"
 }

@@ -41,9 +41,10 @@ nav {
     z-index: 100;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-    padding: 1.6rem 2.8rem;
-    mix-blend-mode: multiply;   
+    align-items: center;
+    padding: 1.2rem 2.8rem;
+    /*mix-blend-mode: multiply;*/
+    background-color: var(--cream);
 }
 
 .nav-title {
@@ -89,7 +90,7 @@ nav {
     padding: 0;
     font-family: inherit;
     transition: color .2s;
-    padding-bottom: 1rem;
+    /*padding-bottom: 1rem;*/
 }
 
 .lang-btn:hover {
@@ -101,10 +102,11 @@ nav {
     position: absolute;
     top: calc(100% - .2rem);
     right: 0;
-    background: white;
+    background: var(--cream);
     border: 1px solid rgba(0,0,0,.08);
     padding: .4rem 0;
     min-width: 110px;
+    margin-top: 1rem;
 }
 
 .lang-switcher.open .lang-dropdown {
@@ -434,13 +436,79 @@ nav {
     z-index: 5;
 }
 
+.main {
+    margin: 0 8rem;
+    padding: 6rem 2.8rem 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.main .question .img-on-top {
+    margin-top: 0;
+}
 
+.main h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: 2rem;
+    color: var(--amber);
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 0.2rem;
+}
 
+.main hr {
+    width: 40%;
+    border-top: none;
+    border-bottom: 1px solid var(--ink-faint);
+}
 
+.main p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--ink-faint);
+    padding: 1.6rem 4rem;
+    margin: 0;
+}
 
+.quiet {
+    text-align: center;
+    width: 60%;
+    font-size: .8rem;
+    line-height: 1.8;
+    color: var(--ink-faint);
+    padding: 1.6rem 4rem;
+    margin: 0;
+}
 
+.quiet a {
+    color: inherit;
+    text-decoration: none;
+    transition: color .2s;
+}
 
+.quiet a svg {
+    width: .72rem;
+    height: .72rem;
+}
+
+.quiet a:hover {
+    color: var(--amber);
+}
+
+.question {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question img {
+    width: 50rem;
+    height: 30rem;
+}
 
 
 .site-footer {
