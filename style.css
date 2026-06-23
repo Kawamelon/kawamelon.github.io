@@ -9,6 +9,7 @@
     --ink-mid:    #4A3520;
     --ink-faint:  #9B8060;
     --line:       rgba(100,65,20,0.14);
+    --img-scale:  1.05
 }
 
 input::-moz-focus-inner { border:0; padding:0 }
@@ -510,6 +511,47 @@ nav {
     height: 30rem;
 }
 
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: .4rem;
+    row-gap: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    height: 15rem;
+    border-radius: 20px;
+}
+
+.gallery a
+{
+    transition: all 0.5s ease;
+}
+
+.gallery a:hover {
+    transform: scale(var(--img-scale)) rotate(2deg);
+}
+
+.gallery a:nth-child(2n):hover
+{
+    transform: scale(var(--img-scale)) rotate(-4deg);
+}
+
+.gallery a:nth-child(3n):hover
+{
+    transform: scale(var(--img-scale)) rotate(3deg);
+}
+
+.gallery a:nth-child(4n):hover
+{
+    transform: scale(var(--img-scale)) rotate(-2deg);
+}
+.gallery a:nth-child(6n):hover
+{
+    transform: scale(var(--img-scale)) rotate(-3deg);
+}
 
 .site-footer {
     padding: 4rem 2.8rem;
