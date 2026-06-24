@@ -4,6 +4,7 @@
     "title-about-me":   "Mèle BOUDRA | About me",
 
     "artist-title":     "Freelance digital artist",
+    "home":             "Home",
     "divers":           "Miscellaneous",
     "about-me":         "About me",
     "contact":          "Contact",
@@ -15,6 +16,8 @@
     "header-count":     "01 projects · 2026-2026",
     "categories-p01":   "Adventure · Fiction",
     "info-p01":         "Trailer fictive video game<br>In the lands of the Kingdom of Prairie, a brave adventurer and a mage set out to save their people from the terrible threat looming over them: the legendary and terrifying \"Cat-astrophe.\"",
+    "categories-p02":   "Action · Drama",
+    "info-p02":         "Trailer fictive video game<br>In the lands of the Kingdom of Prairie, a brave adventurer and a mage set out to save their people from the terrible threat looming over them: the legendary and terrifying \"Cat-astrophe.\"",
     "footer-name":      "Mèle<br>BOUDRA",
     "footer-sub":       "Storyboard Artist · Lyon",
     "networks":         "Networks",
@@ -27,5 +30,5 @@
     "answer-2":         "My imagination is limitless. Wandering and Experimenting thanks to my life experience and my cinematography knowledge, I can bring sequences and the direction requested  to give the emotion we expected to the audience. ",
     "question-3":       "Main Genre ?",
     "answer-3":         "I love make my audience dream with  mystical adventures; create emotions and nostalgia with drama; elaborate suspense with actions.",
-    "more-info":        "A Question ? Any Further information or a project to consider with ? Let's contact with me  via my mail: <a href=\"mailto:mele.bdra@gmail.com\"><svg><use href=\"assets/svg/icons.svg#mail\"></use></svg> mele.bdra@gmail.com</a>"
+    "more-info":        "A Question ? Any Further information or a project to consider with ? Let's contact with me  via my mail: <a href=\"mailto:mele.bdra@gmail.com\"><svg><use href=\"assets/svg/icons.svg#mail\"></use></svg> mele.bdra@gmail.com</a><br>To see my resume/CV it's <a class=\"underline\" href=\"/assets/pdf/CV-Mele.pdf\">over here</a>"
 }

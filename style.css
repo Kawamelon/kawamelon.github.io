@@ -499,6 +499,10 @@ nav {
     color: var(--amber);
 }
 
+.quiet .underline {
+    text-decoration: underline;
+}
+
 .question {
     text-align: start;
     display: flex;

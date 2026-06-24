@@ -4,6 +4,7 @@
     "title-about-me":   "Mèle BOUDRA | About me",
 
     "artist-title":     "Freelance digital artist",
+    "home":             "Accueil",
     "divers":           "Divers",
     "about-me":         "A Propos",
     "contact":          "Contact",
@@ -15,6 +16,8 @@
     "header-count":     "01 projets · 2026-2026",
     "categories-p01":   "Aventure · Fiction",
     "info-p01":         "Bande annonce Jeu Vidéo Fictif<br>Dans les contrés du royaume de Prairie, un brave aventurier et une Mage décidèrent d'aller sauver leur peuple de la terrible menace qui les entoure; la légendaire et terrifiante  \"Cat-astrophe\"",
+    "categories-p02":   "Action · Drama",
+    "info-p02":         "",
     "footer-name":      "Mèle<br>BOUDRA",
     "footer-sub":       "Storyboard Artist · Lyon",
     "networks":         "Réseaux",
@@ -27,5 +30,5 @@
     "answer-2":         "Mon imaginaire est sans limite. En m'évadant et Expérimentant grâce a mes expérience de vie et ma bibliothèque cinématographique, je suis capable de mettre en forme les séquences et mise en scène de l'œuvre pour amener l'émotion qu'on veut donner au public visé.",
     "question-3":       "Genre de prédilection ?",
     "answer-3":         "J'adore faire rêver l'audience avec des aventures mystique et magique; créer de l'émotion et la nostalgie avec le drama; évoquer du suspense avec de l'action.",
-    "more-info":        "Une question ? Des informations complémentaires voire un projet à me proposer ? Contactez-moi sur ma boîte mail: <a href=\"mailto:mele.bdra@gmail.com\"><svg><use href=\"assets/svg/icons.svg#mail\"></use></svg> mele.bdra@gmail.com</a>"
+    "more-info":        "Une question ? Des informations complémentaires voire un projet à me proposer ? Contactez-moi sur ma boîte mail: <a href=\"mailto:mele.bdra@gmail.com\"><svg><use href=\"assets/svg/icons.svg#mail\"></use></svg> mele.bdra@gmail.com</a><br>Pour voir mon CV, c'est <a class=\"underline\" href=\"/assets/pdf/CV-Mele.pdf\">par ici</a>"
 }
